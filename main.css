@@ -294,7 +294,7 @@ img {
     margin-right: 10px;
     border-radius: 10px;
     transition: 0.5s;
-    border: 1px solid #27484D;
+    border: 1px solid #27484d;
     cursor: pointer;
 }
 .lang-card:hover {
@@ -316,9 +316,34 @@ img {
 }
 /* end about section */
 
+.portfolio-section {
+    padding-top: 70px;
+    margin: auto;
+    font-family: serif;
+}
+.portfolio-h2 {
+    margin: 20px 0;
+    
+}
+.portfolio-img {
+    border-radius: 15px;
+}
+.portfolio-container {
+    display: flex;
+    /* justify-content: space-around; */
+    
+}
 
+.df-1 {
+    width: 200px;
+    margin-right: 30px;
+}
 
-               
+.df-2 {
+    width: 200px;
+    text-align: left;
+
+}
 
 .deal {
     background: url(../images/deal-bg.jpg) no-repeat;
